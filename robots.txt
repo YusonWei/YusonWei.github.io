@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://juanjuanhuang-cathy.github.io/sitemap.xml
+Sitemap: https://yusonwei.github.io//sitemap.xml
