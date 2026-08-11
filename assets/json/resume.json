@@ -1,300 +1,141 @@
 {
   "basics": {
-    "name": "Juanjuan Huang",
-    "label": "Assistant Physicist",
+    "name": "Yuanlong Wei",
+    "label": "Research Assistant",
     "image": "",
-    "email": "Juanjuan.huang@anl.gov",
-    "phone": "",
-    "url": "https://www.anl.gov/profile/juanjuan-huang",
-    "summary": "Juanjuan Huang, Ph.D., is an Assistant Physicist at the Advanced Photon Source, Argonne National Laboratory. Her work focuses on developing advanced X-ray spectroscopy and spectral imaging techniques, with an emphasis on fast, spatially resolved, and data-intensive experiments for fundamental science. She is particularly interested in integrating AI and automation into X-ray science to enable smarter experiments and scalable analysis for chemistry & materials research.",
+    "email": "yuanlongwei_hit@163.com",
+    "phone": "+86-158-2000-0219",
+    "url": "",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
   "education": [
     {
-      "institution": "Physics department, Technical University of Munich (TUM)",
-      "location": "Munich, GERMANY",
-      "url": "https://drive.google.com/file/d/19jcgMIaL2gQULCHDOmergQClEo2oD_i3/view?usp=sharing",
-      "area": "<a href='https://drive.google.com/file/d/19jcgMIaL2gQULCHDOmergQClEo2oD_i3/view?usp=sharing'>X-ray Physics (PhD thesis)</a>",
-      "studyType": "Ph.D",
-      "startDate": "2018-01-01",
-      "endDate": "2022-07-01",
-      "score": "10"
-    },
-    {
-      "institution": "Ludwig-Maximilians-University Munich (LMU) and Université de Montpellier II (UM2)",
-      "location": "France & GERMANY",
+      "institution": "Harbin Institute of Technology (HIT)",
+      "location": "Harbin, China",
       "url": "",
-      "area": "Materials Science exploiting Large-Scale Facilities",
+      "area": "Traffic and Transportation Engineering (MEng thesis) Passivity-Based Control for Vehicle Platoons",
       "studyType": "Master's degree",
-      "startDate": "2015-09-01",
-      "endDate": "2017-08-01",
-      "score": "10",
-      "courses": ["Erasmus Mundus Scholarship (43,000 €)", "Labex CheMiSyst prize (ranked 1st in the Chemistry department of UM2 for year 2017)"]
+      "startDate": "2022-09-01",
+      "endDate": "2025-06-01",
+      "score": ""
     },
     {
-      "institution": "Bachelor of Science in Chemistry, Sun Yat-Sen (Zhong Shan) University (SYSU) ",
-      "location": "Guangzhou, China",
+      "institution": "Jilin University (JLU)",
+      "location": "Changchun, China",
       "url": "",
-      "area": "Chemistry",
+      "area": "Traffic Engineering",
       "studyType": "Bachelor's degree",
-      "startDate": "2011-09-01",
-      "endDate": "2015-08-01",
-      "score": "10"
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-01",
+      "score": ""
     }
   ],
   "work": [
     {
-      "name": "the Advanced Photon Source, Argonne National Laborotary",
-      "position": "Assistant physicist and beamline scientist",
-      "location": "Lemont, USA",
+      "name": "National Natural Science Foundation – Cooperative Control for Vehicle Platoon Systems under Coupled Conditions of Switching Communication Topology and Unfavorable Road Alignment",
+      "position": "Key Project Participant",
+      "location": "Project No.: 62303134",
       "url": "",
-      "startDate": "2023-10-01",
-      "endDate": "present"
+      "startDate": "2024-01-01",
+      "endDate": "2026-12-01",
+      "summary": ""
     },
     {
-      "name": "the Advanced Photon Source, Argonne National Laborotary",
-      "position": "Postdoctoral researcher",
-      "location": "Lemont, USA",
+      "name": "HIT \"0-1 Original Exploration\" Idea Fund Project – Multi-Vehicle Platoon Cooperative Control under Vehicle-Road Interference and Switching Communication Topology",
+      "position": "Project Leader",
+      "location": "Project No.: HIT.DZJJ.2023084",
       "url": "",
-      "startDate": "2022-09-01",
-      "endDate": "2023-09-01"
+      "startDate": "2023-11-01",
+      "endDate": "2024-11-01",
+      "summary": ""
     },
     {
-      "name": "Department of physics, Technical University of Munich (TUM)",
-      "position": "Doctoral researcher",
-      "location": "Munich, GERMANY",
+      "name": "Heilongjiang Provincial Natural Science Foundation of China – Optimal Disposal Method for Typical High-Speed Road Sections via Ice and Snow Based on SMC Control",
+      "position": "Participant",
+      "location": "Project No.: YQ2022F008",
       "url": "",
-      "startDate": "2018-01-01",
-      "endDate": "2022-07-01"
+      "startDate": "2022-07-01",
+      "endDate": "2025-07-01",
+      "summary": ""
     },
     {
-      "name": "Stanford Synchrotron Radiation Lightsource (SSRL)",
-      "position": "Short-term research scholar",
-      "location": "Menlo Park, USA",
+      "name": "Science and Technology Program of Shandong Provincial Department of Transportation – Ice Detection, Early Warning and Rapid Treatment Technology for Expressway Asphalt Pavements",
+      "position": "Participant",
+      "location": "Project No.: 2020BZ02-02",
       "url": "",
-      "startDate": "2019-12-01",
-      "endDate": "2020-03-01"
+      "startDate": "2020-01-01",
+      "endDate": "2023-09-01",
+      "summary": ""
     },
     {
-      "name": "European Synchrotron Radiation Facility (ESRF)",
-      "position": "Master’s researcher",
-      "location": "Grenoble, FRANCE",
+      "name": "Major Science and Technology Project of Guangxi Department of Transportation – Lightweight Highway Asset Inspection and Pavement Maintenance Decision-Making Integrated Technologies",
+      "position": "Participant",
+      "location": "Project No.: 2022-ZD4-051",
       "url": "",
-      "startDate": "2016-05-01",
-      "endDate": "2017-08-01"
+      "startDate": "2023-01-01",
+      "endDate": "2025-12-01",
+      "summary": ""
     }
   ],
-  "volunteer": [
+  "volunteer": [],
+  "talks": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "awards": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "talks": [
-    {
-      "title": "Conference: APS Global Physics Summit 2026",
-      "location": "Denver, USA",
-      "date": "2026-03",
-      "url": "https://meetings-archive.aps.org/smt/2026/mar-a42/1/",
-      "summary": "\"Toward Intelligent X-ray Spectroscopy: An Agentic AI Platform for Automated and Multimodal Analysis\""
+      "title": "Second-Class Academic Scholarship",
+      "date": "2024",
+      "awarder": "Harbin Institute of Technology",
+      "summary": "2023 - 2024 (twice)"
     },
     {
-      "title": "Seminar: Department of Nuclear Science and Engineering, Massachusetts Institute of Technology",
-      "location": "Boston, USA",
-      "date": "2025-06",
-      "url": "",
-      "summary": "\"X-ray Absorption Spectroscopy (XAS): Probing Local Structure and Beyond.\""
+      "title": "Top-Class Academic Scholarship",
+      "date": "2023-04",
+      "awarder": "Harbin Institute of Technology",
+      "summary": ""
     },
     {
-      "title": "Seminar: Walker Department of Mechanical Engineering, The University of Texas at Austin",
-      "location": "Austin, USA",
-      "date": "2025-03",
-      "url": "",
-      "summary": "\"Dispersive X-ray Absorption Spectroscopy at the Munich Compact Light Source (MuCLS) and the Advanced Photon Source (APS)\""
+      "title": "Outstanding Undergraduate Thesis",
+      "date": "2022-06",
+      "awarder": "Jilin University",
+      "summary": ""
     },
     {
-      "title": "Conference: International Symposium on Compact Synchrotron X-ray",
-      "location": "Online",
-      "date": "2024-06",
-      "url": "",
-      "summary": "Dispersive X-ray Absorption Spectroscopy at the Munich Compact Light Source (MuCLS) and the Advanced Photon Source (APS) "
+      "title": "Safe China Tour · Road Safety Innovation Competition – Third Prize (National Level)",
+      "date": "2020-12",
+      "awarder": "GAC Honda Automobile Co., Ltd.",
+      "summary": ""
     },
     {
-      "title": "Conference: X-ray Spectroscopy beyond Beamlines",
-      "location": "Online",
-      "date": "2021-03",
-      "url": "",
-      "summary": "Dispersive X-ray absorption spectroscopy with an inverse Compton source"
+      "title": "College Outstanding Student",
+      "date": "2022",
+      "awarder": "Jilin University",
+      "summary": "2019 - 2022 (4 times)"
     },
     {
-      "title": "Webinar: Global XAS Journal Club",
-      "location": "Online",
-      "date": "2020-08",
-      "url": "",
-      "summary": "Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source"
+      "title": "Second-Class Scholarship",
+      "date": "2022",
+      "awarder": "Jilin University",
+      "summary": "2019 - 2022 (4 times)"
     },
     {
-      "title": "Seminar: Physics Department, The University of Wurzburg",
-      "location": "Wurzburg, GERMANY",
-      "date": "2019-03",
-      "url": "",
-      "summary": "\"Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source\""
-    },
-    {
-      "title": "Seminar: Wigner Research Centre for Physics, The Hungarian Academy of Sciences",
-      "location": "Budapest, Hungary",
-      "date": "2018-09",
-      "url": "",
-      "summary": "\"Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source\""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "title": "Social Work Award",
+      "date": "2019-04",
+      "awarder": "Jilin University",
+      "summary": ""
     }
   ]
 }
