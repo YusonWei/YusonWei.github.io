@@ -21,9 +21,9 @@
               <div>{{- entry.abbr -}}</div>
             {% endif %}
           </abbr>
-        {% else %}
+        <!-- {% else %}
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
-        {% endif %}
+        {% endif %} -->
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
@@ -173,8 +173,8 @@
     </div>
     {% if entry.type == 'article' and entry.month %}
       <div class="periodical">{{ entry.month | capitalize }} {{ entry.year }}</div>
-    {% elsif proceedings contains entry.type and entry.abbr %}
-      <div class="periodical">{{ entry.abbr }} {{ entry.year }}</div>
+    {% elsif proceedings contains entry.type and entry.shortvenue %}
+      <div class="periodical">{{ entry.shortvenue }} {{ entry.year }}</div>
     {% elsif entry.year %}
       <div class="periodical">{{ entry.year }}</div>
     {% endif %}
