@@ -3,7 +3,7 @@ layout: page
 permalink: /people/
 title: PEOPLE
 description: I've been fortunate to work with the following talented people.
-nav: true
+nav: false
 nav_order: 5
 ---
 

@@ -3,7 +3,7 @@ layout: page
 permalink: /software/
 title: SOFTWARE
 description: Scientific software, visual tools, and thoughtful experiments.
-nav: true
+nav: false
 nav_order: 4
 _styles: |
   .work-portfolio {

@@ -3,7 +3,7 @@ layout: page
 title: gallery
 permalink: /gallery/
 description: A collection of scientific graphics I have created over the years. [Webpage construction in progress. More examples will be added soon.]
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work]
 horizontal: false
