@@ -263,8 +263,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Huang]
-  first_name: [Juanjuan]
+  last_name: [Wei]
+  first_name: [Yuanlong]
 
   style: apa
   locale: en
