@@ -10,8 +10,8 @@
       {% assign proj_name = content.name %}
     {% endif %}
     {% if content.startDate %}
-      {% assign startDate = content.startDate | split: '-' | first %}
-      {% assign endDate = content.endDate | split: '-' | first | default: 'Present' %}
+      {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+      {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
       {% assign period = startDate | append: ' - ' | append: endDate %}
     {% else %}
       {% assign period = '' %}
