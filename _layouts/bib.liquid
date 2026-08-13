@@ -173,8 +173,8 @@
     </div>
     {% if entry.type == 'article' and entry.month %}
       <div class="periodical">{{ entry.month | capitalize }} {{ entry.year }}</div>
-    {% elsif proceedings contains entry.type and entry.shortvenue %}
-      <div class="periodical">{{ entry.shortvenue }} {{ entry.year }}</div>
+    {% elsif proceedings contains entry.type and entry.abbr %}
+      <div class="periodical">{{ entry.abbr }} {{ entry.year }}</div>
     {% elsif entry.year %}
       <div class="periodical">{{ entry.year }}</div>
     {% endif %}
