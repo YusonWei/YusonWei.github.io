@@ -262,21 +262,21 @@ track.addEventListener('click', () => {
 .box-wrap {
   display:flex;
   align-items:flex-start;
-  gap:24px;
+  gap:17px;
   width:100%;
-  max-width:1200px;
+  max-width:840px;
   margin:20px auto;
 }
 .diamond-group {
   display:flex;
   flex-direction:column;
-  gap:-22px;
+  gap:-15px;
 }
 /* 不旋转a标签，用伪元素画菱形，点击热区完全正常 */
 .diam-wrap {
   position:relative;
-  width:110px;
-  height:110px;
+  width:77px;
+  height:77px;
   display:block;
 }
 .diam-wrap::before {
@@ -292,13 +292,13 @@ track.addEventListener('click', () => {
 .text-group {
   display:flex;
   flex-direction:column;
-  padding-top:18px;
-  padding-bottom:18px;
-  gap:32px;
+  padding-top:13px;
+  padding-bottom:13px;
+  gap:22px;
 }
 .txt-item {
   font-weight:bold;
-  font-size:42px;
+  font-size:29px;
   text-decoration:none;
 }
 .txt-yellow { color:#ffdd00; }
@@ -308,14 +308,66 @@ track.addEventListener('click', () => {
 
 <div class="box-wrap">
   <div class="diamond-group">
-    <a target="_blank" rel="noopener noreferrer" class="diam-wrap diam-yellow" href="https://youtu.be/rTHhyES8CqE"></a>
+    <a target="_blank" rel="noopener noreferrer" class="diam-wrap diam-yellow about-video-trigger" data-video-id="rTHhyES8CqE" data-video-title="Representative Academic Slides" href="https://youtu.be/rTHhyES8CqE"></a>
     <a target="_blank" rel="noopener noreferrer" class="diam-wrap diam-green" href="https://yusonwei.github.io/assets/pdf/MEng%20thesis.pdf"></a>
     <a target="_blank" rel="noopener noreferrer" class="diam-wrap diam-red" href="https://yusonwei.github.io/assets/pdf/Complete%20Mathematical%20Derivations%20—%20IEEE%20IoT%E2%80%91J%20Paper.pdf"></a>
   </div>
 
   <div class="text-group">
-    <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/rTHhyES8CqE" class="txt-item txt-yellow">Representative Academic Slides</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/rTHhyES8CqE" class="txt-item txt-yellow about-video-trigger" data-video-id="rTHhyES8CqE" data-video-title="Representative Academic Slides">Representative Academic Slides</a>
     <a target="_blank" rel="noopener noreferrer" href="https://yusonwei.github.io/assets/pdf/MEng%20thesis.pdf" class="txt-item txt-green">Master’s Dissertation with Improved<br>VO‑IDA Algorithm in Chapter 4</a>
-    <a target="_blank" rel="noopener noreferrer" href="https://yusonwei.github.io/assets/pdf/Complete%20Mathematical%20Derivations%20—%20IEEE%20IoT%E2%80%91J%20Paper.pdf" class="txt-item txt-red">Complete Mathematical Derivation for IoT‑J Paper</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://yusonwei.github.io/assets/pdf/Complete%20Mathematical%20Derivations%20—%20IEEE%20IoT%E2%80%91J%20Paper.pdf" class="txt-item txt-red">Mathematical Derivation for IoT‑J Paper</a>
   </div>
 </div>
+
+<div class="modal fade" id="aboutVideoModal" tabindex="-1" role="dialog" aria-labelledby="aboutVideoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="aboutVideoModalLabel">Video</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            id="aboutVideoFrame"
+            class="embed-responsive-item"
+            src=""
+            title="Video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var modal = document.getElementById("aboutVideoModal");
+    var frame = document.getElementById("aboutVideoFrame");
+    var label = document.getElementById("aboutVideoModalLabel");
+
+    if (!modal || !frame || !label) return;
+
+    document.querySelectorAll(".about-video-trigger").forEach(function (link) {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+
+        var videoId = link.getAttribute("data-video-id");
+        var videoTitle = link.getAttribute("data-video-title") || "Video";
+        label.textContent = videoTitle;
+        frame.src = "https://www.youtube-nocookie.com/embed/" + videoId + "?autoplay=1&rel=0";
+
+        $(modal).modal("show");
+      });
+    });
+
+    $(modal).on("hidden.bs.modal", function () {
+      frame.src = "";
+    });
+  });
+</script>
