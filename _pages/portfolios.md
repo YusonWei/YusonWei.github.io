@@ -23,10 +23,10 @@ images:
         target="_blank"
         rel="noopener noreferrer"
       >
-        {% include figure.liquid loading="eager" path="assets/img/portfolios/Complete-Mathematical-Derivations-cover-001.jpg" sizes="250px" alt="Complete Mathematical Derivations PDF preview" class="card-img-top" %}
+        {% include figure.liquid loading="eager" path="assets/img/portfolios/Complete-Mathematical-Derivations-cover-001.jpg" sizes="250px" alt="Mathematical Derivations(325 Saved Pages, Main Body) PDF preview" class="card-img-top" %}
         <div class="card-body">
-          <h2 class="card-title">Complete Mathematical Derivations</h2>
-          <p class="card-text">IEEE IoT-J Paper PDF</p>
+          <h2 class="card-title">Mathematical Derivations (325 Saved Pages, Main Body)</h2>
+          <p class="card-text">IEEE IoT-J Paper</p>
         </div>
       </a>
     </div>
