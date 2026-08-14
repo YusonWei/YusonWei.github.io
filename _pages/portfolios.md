@@ -27,6 +27,21 @@ images:
       <a
         class="card h-100 hoverable"
         style="color: inherit;"
+        href="https://yusonwei.github.io/assets/pdf/MEng%20thesis.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {% include figure.liquid loading="eager" path="assets/img/portfolios/MEng-thesis-cover-001.jpg" sizes="250px" alt="MEng thesis PDF preview" class="card-img-top" %}
+        <div class="card-body">
+          <h2 class="card-title">MEng thesis</h2>
+          <p class="card-text">Passivity-Based Control for Vehicle Platoons</p>
+        </div>
+      </a>
+    </div>
+    <div class="col">
+      <a
+        class="card h-100 hoverable"
+        style="color: inherit;"
         href="{{ '/assets/pdf/Complete%20Mathematical%20Derivations%20%E2%80%94%20IEEE%20IoT%E2%80%91J%20Paper.pdf' | relative_url }}"
         target="_blank"
         rel="noopener noreferrer"
