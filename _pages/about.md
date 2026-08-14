@@ -288,6 +288,7 @@ track.addEventListener('click', () => {
 .diam-yellow::before { background:#ffdd00; }
 .diam-green::before  { background:#00dd00; }
 .diam-red::before    { background:#ff0000; }
+.diam-wrap.diam-yellow { width:62px; height:62px; }
 
 .text-group {
   display:flex;
@@ -304,6 +305,7 @@ track.addEventListener('click', () => {
 .txt-yellow { color:#ffdd00; }
 .txt-green  { color:#00dd00; }
 .txt-red    { color:#ff0000; }
+.txt-item.txt-yellow { font-size:23px; }
 </style>
 
 <div class="box-wrap">
