@@ -3,7 +3,7 @@ layout: page
 title: Hobbies
 permalink: /hobbies/
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
