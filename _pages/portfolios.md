@@ -9,6 +9,7 @@ display_categories: [portfolio]
 horizontal: false
 images:
   lightbox2: true
+  venobox: true
 ---
 
 <!-- pages/portfolios.md -->
@@ -54,4 +55,42 @@ images:
     {% endfor %}
   </div>
 {% endif %}
+</div>
+
+<div class="projects mt-4">
+  <h2 class="category">video</h2>
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col">
+      <a class="card h-100 hoverable venobox" style="color: inherit;" data-vbtype="video" data-autoplay="true" href="https://youtu.be/rTHhyES8CqE">
+        <img src="https://img.youtube.com/vi/rTHhyES8CqE/hqdefault.jpg" class="card-img-top" alt="Representative academic slides" loading="lazy">
+        <div class="card-body">
+          <h2 class="card-title">Representative academic slides</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col">
+      <a class="card h-100 hoverable venobox" style="color: inherit;" data-vbtype="video" data-autoplay="true" href="https://youtu.be/CC3O-unSNpE">
+        <img src="https://img.youtube.com/vi/CC3O-unSNpE/hqdefault.jpg" class="card-img-top" alt="Traffic Engineering Internship Project 2 - Simulation Result" loading="lazy">
+        <div class="card-body">
+          <h2 class="card-title">Traffic Engineering Internship Project 2 - Simulation Result</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col">
+      <a class="card h-100 hoverable venobox" style="color: inherit;" data-vbtype="video" data-autoplay="true" href="https://youtu.be/qbXFMm4PIPk">
+        <img src="https://img.youtube.com/vi/qbXFMm4PIPk/hqdefault.jpg" class="card-img-top" alt="Traffic Engineering Internship Project 1 - Work" loading="lazy">
+        <div class="card-body">
+          <h2 class="card-title">Traffic Engineering Internship Project 1 - Work</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col">
+      <a class="card h-100 hoverable venobox" style="color: inherit;" data-vbtype="video" data-autoplay="true" href="https://youtu.be/sfspEywTf1c">
+        <img src="https://img.youtube.com/vi/sfspEywTf1c/hqdefault.jpg" class="card-img-top" alt="Traffic Engineering Internship Project 2 - Work" loading="lazy">
+        <div class="card-body">
+          <h2 class="card-title">Traffic Engineering Internship Project 2 - Work</h2>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
