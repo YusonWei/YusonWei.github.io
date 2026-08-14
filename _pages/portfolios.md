@@ -19,7 +19,7 @@ images:
       <a
         class="card h-100 hoverable"
         style="color: inherit;"
-        href="https://github.com/YusonWei/YusonWei.github.io/blob/main/assets/pdf/Complete%20Mathematical%20Derivations%20%E2%80%94%20IEEE%20IoT%E2%80%91J%20Paper.pdf"
+        href="{{ '/assets/pdf/Complete%20Mathematical%20Derivations%20%E2%80%94%20IEEE%20IoT%E2%80%91J%20Paper.pdf' | relative_url }}"
         target="_blank"
         rel="noopener noreferrer"
       >
