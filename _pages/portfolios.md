@@ -13,6 +13,7 @@ images:
 
 <!-- pages/portfolios.md -->
 <div class="projects">
+  <h2 class="category">pdf</h2>
   <div class="row row-cols-1 row-cols-md-3">
     <div class="col">
       <a
@@ -36,7 +37,7 @@ images:
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized portfolios -->
   {% for category in page.display_categories %}
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category">img</h2>
     {% assign categorized_projects = site.projects | where: "category", category %}
     {% assign sorted_projects = categorized_projects | sort: "importance" %}
     <div class="row row-cols-1 row-cols-md-3">
