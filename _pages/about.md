@@ -81,7 +81,7 @@ latest_posts:
   text-align: center;
 }
 .profile.float-right img {
-  width: 60%;
+  width: 80%;
 }
 .wrap {
   margin: 2rem 0;
