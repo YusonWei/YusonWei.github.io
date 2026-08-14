@@ -77,6 +77,12 @@ latest_posts:
 </div>
 
 <style>
+.profile.float-right figure {
+  text-align: center;
+}
+.profile.float-right img {
+  width: 60%;
+}
 .wrap {
   margin: 2rem 0;
   --research-accent: rgb(181, 8, 172);
