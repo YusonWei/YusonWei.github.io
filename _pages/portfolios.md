@@ -19,7 +19,7 @@ images:
       <a class="card h-100 hoverable video-modal-trigger" style="color: inherit;" data-video-id="rTHhyES8CqE" data-video-title="Representative academic slides" href="https://youtu.be/rTHhyES8CqE">
         <img src="https://img.youtube.com/vi/rTHhyES8CqE/hqdefault.jpg" class="card-img-top" alt="Representative academic slides" loading="lazy">
         <div class="card-body">
-          <h2 class="card-title">Representative academic slides</h2>
+          <h2 class="card-title">Representative Academic Slides</h2>
         </div>
       </a>
     </div>
@@ -33,7 +33,7 @@ images:
       >
         {% include figure.liquid loading="eager" path="assets/img/portfolios/MEng-thesis-cover-001.jpg" sizes="250px" alt="MEng thesis PDF preview" class="card-img-top" %}
         <div class="card-body">
-          <h2 class="card-title">MEng thesis</h2>
+          <h2 class="card-title">MEng Thesis</h2>
           <p class="card-text">Passivity-Based Control for Vehicle Platoons</p>
         </div>
       </a>

@@ -8,8 +8,17 @@ profile:
   align: right
   image: about_personal_photo.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <img src="/assets/img/about_personal_signature.png" alt="Signature" class="img-fluid">
+  more_info: >-
+    <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 8px; font-family: 'Roboto', sans-serif; font-size: 0.9rem; line-height: 1.35;">
+      <a href="mailto:yuanlongwei_hit@163.com" style="display: flex; align-items: center; gap: 7px; overflow-wrap: anywhere;">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        <span>yuanlongwei_hit@163.com</span>
+      </a>
+      <a href="tel:+8615820000219" style="display: flex; align-items: center; gap: 7px; white-space: nowrap;">
+        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+        <span>+86-158-2000-0219</span>
+      </a>
+    </div>
 
 banner: assets/img/banner.png
 
@@ -70,6 +79,10 @@ latest_posts:
 <style>
 .wrap {
   margin: 2rem 0;
+  --research-accent: rgb(181, 8, 172);
+}
+html[data-theme="dark"] .wrap {
+  --research-accent: rgb(38, 152, 186);
 }
 .toggle-labels {
   display: flex;
@@ -81,7 +94,7 @@ latest_posts:
   color: #444;
 }
 .toggle-labels .active-label {
-  color: rgb(38,152,186);
+  color: var(--research-accent);
 }
 .groove-track {
   position: relative;
@@ -97,7 +110,7 @@ latest_posts:
   left: 3px;
   width: calc(50% - 6px);
   height: 28px;
-  background: rgb(38,152,186);
+  background: var(--research-accent);
   border-radius: 14px;
   transition: left 0.25s ease;
 }
@@ -116,7 +129,7 @@ latest_posts:
   font-weight: 600;
   margin: 1.4rem 0 0.6rem;
   padding-top:1rem;
-  border-top:2px solid rgb(38,152,186);
+  border-top:2px solid var(--research-accent);
 }
 .skill-tier-title:first-of-type {
   border-top:none;
@@ -132,7 +145,7 @@ latest_posts:
   margin-bottom: 6px;
 }
 .tag-proficient {
-  background: rgb(38,152,186);
+  background: var(--research-accent);
   color: #fff;
   padding: 5px 11px;
   border-radius: 3px;
