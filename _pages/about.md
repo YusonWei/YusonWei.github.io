@@ -262,21 +262,21 @@ track.addEventListener('click', () => {
 .box-wrap {
   display:flex;
   align-items:flex-start;
-  gap:17px;
+  gap:14px;
   width:100%;
-  max-width:840px;
+  max-width:672px;
   margin:20px auto;
 }
 .diamond-group {
   display:flex;
   flex-direction:column;
-  gap:-15px;
+  gap:-12px;
 }
 /* 不旋转a标签，用伪元素画菱形，点击热区完全正常 */
 .diam-wrap {
   position:relative;
-  width:77px;
-  height:77px;
+  width:62px;
+  height:62px;
   display:block;
 }
 .diam-wrap::before {
@@ -288,24 +288,22 @@ track.addEventListener('click', () => {
 .diam-yellow::before { background:#ffdd00; }
 .diam-green::before  { background:#00dd00; }
 .diam-red::before    { background:#ff0000; }
-.diam-wrap.diam-yellow { width:62px; height:62px; }
 
 .text-group {
   display:flex;
   flex-direction:column;
-  padding-top:13px;
-  padding-bottom:13px;
-  gap:22px;
+  padding-top:10px;
+  padding-bottom:10px;
+  gap:18px;
 }
 .txt-item {
   font-weight:bold;
-  font-size:29px;
+  font-size:23px;
   text-decoration:none;
 }
 .txt-yellow { color:#ffdd00; }
 .txt-green  { color:#00dd00; }
 .txt-red    { color:#ff0000; }
-.txt-item.txt-yellow { font-size:23px; }
 </style>
 
 <div class="box-wrap">
