@@ -13,6 +13,26 @@ images:
 
 <!-- pages/portfolios.md -->
 <div class="projects">
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col">
+      <a
+        class="card h-100 hoverable"
+        style="color: inherit;"
+        href="https://github.com/YusonWei/YusonWei.github.io/blob/main/assets/pdf/Complete%20Mathematical%20Derivations%20%E2%80%94%20IEEE%20IoT%E2%80%91J%20Paper.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {% include figure.liquid loading="eager" path="assets/img/portfolios/Complete-Mathematical-Derivations-cover-001.jpg" sizes="250px" alt="Complete Mathematical Derivations PDF preview" class="card-img-top" %}
+        <div class="card-body">
+          <h2 class="card-title">Complete Mathematical Derivations</h2>
+          <p class="card-text">IEEE IoT-J Paper PDF</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="projects mt-4">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized portfolios -->
   {% for category in page.display_categories %}
@@ -34,13 +54,3 @@ images:
   </div>
 {% endif %}
 </div>
-
-<h2 class="mt-5">PDF Reader</h2>
-<iframe
-  src="{{ '/assets/pdf/Complete%20Mathematical%20Derivations%20%E2%80%94%20IEEE%20IoT%E2%80%91J%20Paper.pdf' | relative_url }}#view=FitH"
-  class="w-100"
-  style="height: 80vh; min-height: 520px; border: 0;"
-  title="Complete Mathematical Derivations - IEEE IoT-J Paper"
-  loading="lazy"
-  allowfullscreen>
-</iframe>
