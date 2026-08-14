@@ -257,3 +257,65 @@ track.addEventListener('click', () => {
   }
 });
 </script>
+
+<style>
+.box-wrap {
+  display:flex;
+  align-items:flex-start;
+  gap:24px;
+  width:100%;
+  max-width:1200px;
+  margin:20px auto;
+}
+.diamond-group {
+  display:flex;
+  flex-direction:column;
+  gap:-22px;
+}
+/* 不旋转a标签，用伪元素画菱形，点击热区完全正常 */
+.diam-wrap {
+  position:relative;
+  width:110px;
+  height:110px;
+  display:block;
+}
+.diam-wrap::before {
+  content:"";
+  position:absolute;
+  inset:0;
+  transform:rotate(45deg);
+}
+.diam-yellow::before { background:#ffdd00; }
+.diam-green::before  { background:#00dd00; }
+.diam-red::before    { background:#ff0000; }
+
+.text-group {
+  display:flex;
+  flex-direction:column;
+  padding-top:18px;
+  padding-bottom:18px;
+  gap:32px;
+}
+.txt-item {
+  font-weight:bold;
+  font-size:42px;
+  text-decoration:none;
+}
+.txt-yellow { color:#ffdd00; }
+.txt-green  { color:#00dd00; }
+.txt-red    { color:#ff0000; }
+</style>
+
+<div class="box-wrap">
+  <div class="diamond-group">
+    <a target="_blank" rel="noopener noreferrer" class="diam-wrap diam-yellow" href="https://youtu.be/rTHhyES8CqE"></a>
+    <a target="_blank" rel="noopener noreferrer" class="diam-wrap diam-green" href="https://yusonwei.github.io/assets/pdf/MEng%20thesis.pdf"></a>
+    <a target="_blank" rel="noopener noreferrer" class="diam-wrap diam-red" href="https://yusonwei.github.io/assets/pdf/Complete%20Mathematical%20Derivations%20—%20IEEE%20IoT%E2%80%91J%20Paper.pdf"></a>
+  </div>
+
+  <div class="text-group">
+    <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/rTHhyES8CqE" class="txt-item txt-yellow">Representative Academic Slides</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://yusonwei.github.io/assets/pdf/MEng%20thesis.pdf" class="txt-item txt-green">Master’s Dissertation with Improved<br>VO‑IDA Algorithm in Chapter 4</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://yusonwei.github.io/assets/pdf/Complete%20Mathematical%20Derivations%20—%20IEEE%20IoT%E2%80%91J%20Paper.pdf" class="txt-item txt-red">Complete Mathematical Derivation for IoT‑J Paper</a>
+  </div>
+</div>

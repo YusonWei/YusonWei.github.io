@@ -13,8 +13,16 @@ images:
 
 <!-- pages/portfolios.md -->
 <div class="projects">
-  <h2 class="category">pdf</h2>
+  <h2 class="category">portfolios</h2>
   <div class="row row-cols-1 row-cols-md-3">
+    <div class="col">
+      <a class="card h-100 hoverable video-modal-trigger" style="color: inherit;" data-video-id="rTHhyES8CqE" data-video-title="Representative academic slides" href="https://youtu.be/rTHhyES8CqE">
+        <img src="https://img.youtube.com/vi/rTHhyES8CqE/hqdefault.jpg" class="card-img-top" alt="Representative academic slides" loading="lazy">
+        <div class="card-body">
+          <h2 class="card-title">Representative academic slides</h2>
+        </div>
+      </a>
+    </div>
     <div class="col">
       <a
         class="card h-100 hoverable"
@@ -27,43 +35,6 @@ images:
         <div class="card-body">
           <h2 class="card-title">Mathematical Derivations (325 Saved Pages, Main Body)</h2>
           <p class="card-text">IEEE IoT-J Paper</p>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
-
-<div class="projects mt-4">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized portfolios -->
-  {% for category in page.display_categories %}
-    <h2 class="category">img</h2>
-    {% assign categorized_projects = site.projects | where: "category", category %}
-    {% assign sorted_projects = categorized_projects | sort: "importance" %}
-    <div class="row row-cols-1 row-cols-md-3">
-      {% for project in sorted_projects %}
-        {% include projects.liquid %}
-      {% endfor %}
-    </div>
-  {% endfor %}
-{% else %}
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-{% endif %}
-</div>
-
-<div class="projects mt-4">
-  <h2 class="category">video</h2>
-  <div class="row row-cols-1 row-cols-md-3">
-    <div class="col">
-      <a class="card h-100 hoverable video-modal-trigger" style="color: inherit;" data-video-id="rTHhyES8CqE" data-video-title="Representative academic slides" href="https://youtu.be/rTHhyES8CqE">
-        <img src="https://img.youtube.com/vi/rTHhyES8CqE/hqdefault.jpg" class="card-img-top" alt="Representative academic slides" loading="lazy">
-        <div class="card-body">
-          <h2 class="card-title">Representative academic slides</h2>
         </div>
       </a>
     </div>
@@ -91,11 +62,22 @@ images:
         </div>
       </a>
     </div>
+    <div class="col">
+      <div class="card h-100 hoverable">
+        <a href="{{ '/assets/img/portfolios/Intersection_cad_drawing.jpg' | relative_url }}" data-lightbox="gallery" data-title="Intersection CAD drawing">
+          {% include figure.liquid loading="eager" path="assets/img/portfolios/Intersection_cad_drawing.jpg" sizes="250px" alt="Intersection CAD drawing thumbnail" class="card-img-top" %}
+        </a>
+        <div class="card-body">
+          <h2 class="card-title">Intersection CAD drawing</h2>
+          <p class="card-text">Road intersection traffic infrastructure drawing, created with AutoCAD</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="videoModalLabel">Video</h5>
