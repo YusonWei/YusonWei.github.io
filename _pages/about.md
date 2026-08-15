@@ -93,7 +93,7 @@ latest_posts:
   margin-left: calc((100% - var(--profile-photo-width)) / 2);
 }
 .post article > h2 {
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
 .post article > .publications {
