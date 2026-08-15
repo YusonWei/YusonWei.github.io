@@ -92,8 +92,12 @@ latest_posts:
   width: max-content;
   margin-left: calc((100% - var(--profile-photo-width)) / 2);
 }
-.post article > .publications {
+.post article > h2 {
   margin-top: 5rem;
+  margin-bottom: 0.5rem;
+}
+.post article > .publications {
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 .wrap {
