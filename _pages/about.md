@@ -79,15 +79,16 @@ latest_posts:
 <style>
 .profile.float-right {
   --profile-photo-width: 50%;
+  margin-left: 2rem;
 }
 .profile.float-right figure {
-  text-align: center;
+  text-align: left;
 }
 .profile.float-right img {
   width: var(--profile-photo-width);
 }
 .profile.float-right .more-info {
-  margin-left: calc((100% - var(--profile-photo-width)) / 2);
+  margin-left: 0;
 }
 .wrap {
   margin: 2rem 0;
