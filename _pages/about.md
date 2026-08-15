@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Physicist at the Advanced Photon Source, Argonne National Laboratory, USA
+subtitle: Research assistant at Harbin Institute of Technology
 
 profile:
   align: right
@@ -41,8 +41,8 @@ latest_posts:
     <i class="fa-solid fa-earth-americas" style="font-size: 1.0rem; color: #3b0f70;"></i>
   </div>
   <div>
-    <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #3b0f70;">I AM</span>
-    <span> an enthusiastic early-career scientist without borders, with a research journey spanning three continents — Asia, Europe, and America, and an interdisciplinary background fused with high-energy physics, chemistry and materials science.</span>
+    <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #3b0f70;">ABOUT ME</span>
+    <span> I am preparing for PhD applications focused on Robotics and Embodied AI, with a particular interest in bridging control theory and physically grounded AI.</span>
   </div>
 </div>
 
@@ -51,8 +51,8 @@ latest_posts:
     <i class="fa-solid fa-atom" style="font-size: 1.0rem; color: #8c2981;"></i>
   </div>
   <div>
-    <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #8c2981;">I DEDICATE</span>
-    <span> to push the extreme of X-ray techniques. For eight years, I have devoted myself to developing fast, ms time-scale X-ray Absorption Spectroscopy (dispersive XAS), while exploring how AI and automation can bring intelligence and scalability into experimental science.</span>
+    <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #8c2981;">EXPERTISE</span>
+    <span> I possess sound foundations in control theory and am actively building robotic expertise. I specialize in mathematical algorithm design and proposed a VO-IDA control framework with published theoretical contributions.</span>
   </div>
 </div>
 
@@ -61,8 +61,8 @@ latest_posts:
     <i class="fa-solid fa-palette" style="font-size: 1.0rem; color: #de4968;"></i>
   </div>
   <div>
-    <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #de4968;">I BELIEVE</span>
-    <span> art is a science just like science is also an art. Both share a beauty that transcends boundaries, the symmetry in randomness, the harmony in disorders.. I pursue work that is a piece of art, rather than just good results.</span>
+    <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #de4968;">RESEARCH FOCUS</span>
+    <span> Unlike most learning-focused researchers, I aim to develop robust low-level control layers to bridge simulated policies with physical robots to address the Sim-to-Real stability gap.</span>
   </div>
 </div>
 
@@ -71,14 +71,14 @@ latest_posts:
     <i class="fa-solid fa-spa" style="font-size: 1.0rem; color: #fe9f6d;"></i>
   </div>
   <div>
-    <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #fe9f6d;">I SEEK</span>
-    <span> for a simple but unique life. "我们终此一生，就是要摆脱他人的期待，找到真正的自己" (*Our lifelong journey is to break free from others’ expectations and discover our truest selves.*)</span>
+    <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #fe9f6d;">WORKING STYLE</span>
+    <span> I consider myself self-motivated, digging into fundamental mechanisms behind problems and prioritizing rigorous deliverables.</span>
   </div>
 </div>
 
 <style>
 .profile.float-right {
-  --profile-photo-width: 80%;
+  --profile-photo-width: 35%;
 }
 .profile.float-right figure {
   text-align: center;
@@ -87,7 +87,6 @@ latest_posts:
   width: var(--profile-photo-width);
 }
 .profile.float-right .more-info {
-  width: var(--profile-photo-width);
   margin-left: calc((100% - var(--profile-photo-width)) / 2);
 }
 .wrap {

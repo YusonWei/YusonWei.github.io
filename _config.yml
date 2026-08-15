@@ -624,7 +624,6 @@ jekyll_get_json:
 
 jsonresume:
   - education
-  - basics
   - work
   - awards
   - talks
