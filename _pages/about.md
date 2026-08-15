@@ -62,7 +62,7 @@ latest_posts:
   </div>
   <div>
     <span style="font-family: 'Roboto', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; color: #de4968;">RESEARCH FOCUS</span>
-    <span> Unlike most learning-focused researchers, I aim to develop robust low-level control layers to bridge simulated policies with physical robots to address the Sim-to-Real stability gap.</span>
+    <span> Unlike most learning-focused researchers, I aim to develop robust low-level control layers to bridge simulated policies with physical robots to fix the Sim-to-Real stability gap.</span>
   </div>
 </div>
 
@@ -94,7 +94,7 @@ latest_posts:
 }
 .post article > .publications {
   margin-top: 5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 .wrap {
   margin: 2rem 0;
@@ -297,7 +297,7 @@ track.addEventListener('click', () => {
   grid-auto-flow:column;
   align-items:center;
   column-gap:24px;
-  row-gap:18px;
+  row-gap:30px;
   width:100%;
   max-width:900px;
   margin:20px auto;
