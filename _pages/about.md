@@ -319,6 +319,13 @@ track.addEventListener('click', () => {
 .diam-green::before  { background:#00dd00; }
 .diam-red::before    { background:#ff0000; }
 
+.diam-yellow { grid-column:1; grid-row:1; }
+.diam-green  { grid-column:1; grid-row:2; }
+.diam-red    { grid-column:1; grid-row:3; }
+.txt-yellow  { grid-column:2; grid-row:1; }
+.txt-green   { grid-column:2; grid-row:2; }
+.txt-red     { grid-column:2; grid-row:3; }
+
 .txt-item {
   font-weight:bold;
   font-size:23px;
