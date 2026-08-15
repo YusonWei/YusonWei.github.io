@@ -80,15 +80,16 @@ latest_posts:
 .profile.float-right {
   --profile-photo-width: 50%;
   margin-left: 2rem;
+  width: 25%;
 }
 .profile.float-right figure {
-  text-align: left;
+  text-align: center;
 }
 .profile.float-right img {
   width: var(--profile-photo-width);
 }
 .profile.float-right .more-info {
-  margin-left: 0;
+  margin-left: calc((100% - var(--profile-photo-width)) / 2);
 }
 .wrap {
   margin: 2rem 0;
