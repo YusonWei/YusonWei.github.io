@@ -290,6 +290,7 @@ track.addEventListener('click', () => {
 .box-wrap {
   display:grid;
   grid-template-columns:auto minmax(0, 1fr);
+  grid-auto-flow:column;
   align-items:center;
   column-gap:24px;
   row-gap:18px;
