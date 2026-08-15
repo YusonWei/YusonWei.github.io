@@ -92,6 +92,10 @@ latest_posts:
   width: max-content;
   margin-left: calc((100% - var(--profile-photo-width)) / 2);
 }
+.post article > .publications {
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
 .wrap {
   margin: 2rem 0;
   --research-accent: rgb(181, 8, 172);
