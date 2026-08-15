@@ -288,17 +288,18 @@ track.addEventListener('click', () => {
 
 <style>
 .box-wrap {
-  display:flex;
-  align-items:flex-start;
-  gap:24px;
+  display:grid;
+  grid-template-columns:auto minmax(0, 1fr);
+  align-items:center;
+  column-gap:24px;
+  row-gap:18px;
   width:100%;
-  max-width:672px;
+  max-width:900px;
   margin:20px auto;
 }
-.diamond-group {
-  display:flex;
-  flex-direction:column;
-  gap:-12px;
+.diamond-group,
+.text-group {
+  display:contents;
 }
 /* 不旋转a标签，用伪元素画菱形，点击热区完全正常 */
 .diam-wrap {
@@ -317,17 +318,11 @@ track.addEventListener('click', () => {
 .diam-green::before  { background:#00dd00; }
 .diam-red::before    { background:#ff0000; }
 
-.text-group {
-  display:flex;
-  flex-direction:column;
-  padding-top:10px;
-  padding-bottom:10px;
-  gap:18px;
-}
 .txt-item {
   font-weight:bold;
   font-size:23px;
   text-decoration:none;
+  white-space:nowrap;
 }
 .txt-yellow { color:#ffdd00; }
 .txt-green  { color:#00dd00; }
@@ -343,7 +338,7 @@ track.addEventListener('click', () => {
 
   <div class="text-group">
     <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/rTHhyES8CqE" class="txt-item txt-yellow about-video-trigger" data-video-id="rTHhyES8CqE" data-video-title="Representative Academic Slides">Representative Academic Slides</a>
-    <a target="_blank" rel="noopener noreferrer" href="https://yusonwei.github.io/assets/pdf/MEng%20thesis.pdf" class="txt-item txt-green">Master’s Dissertation with Improved<br>VO‑IDA Algorithm in Chapter 4</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://yusonwei.github.io/assets/pdf/MEng%20thesis.pdf" class="txt-item txt-green">Master’s Dissertation with Improved VO‑IDA Algorithm in Chapter 4</a>
     <a target="_blank" rel="noopener noreferrer" href="https://yusonwei.github.io/assets/pdf/Complete%20Mathematical%20Derivations%20—%20IEEE%20IoT%E2%80%91J%20Paper.pdf" class="txt-item txt-red">Mathematical Derivation for IoT‑J Paper</a>
   </div>
 </div>
