@@ -297,7 +297,7 @@ track.addEventListener('click', () => {
   grid-auto-flow:column;
   align-items:center;
   column-gap:24px;
-  row-gap:30px;
+  row-gap:18px;
   width:100%;
   max-width:900px;
   margin:20px auto;
