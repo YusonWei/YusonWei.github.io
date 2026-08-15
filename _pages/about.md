@@ -78,7 +78,7 @@ latest_posts:
 
 <style>
 .profile.float-right {
-  --profile-photo-width: 35%;
+  --profile-photo-width: 50%;
 }
 .profile.float-right figure {
   text-align: center;
