@@ -9,12 +9,12 @@ profile:
   image: about_personal_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >-
-    <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 8px; font-family: 'Roboto', sans-serif; font-size: 0.9rem; line-height: 1.35;">
-      <a href="mailto:yuanlongwei_hit@163.com" style="display: flex; align-items: center; gap: 7px; overflow-wrap: anywhere;">
+    <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 8px; font-family: 'Roboto', sans-serif; font-size: 0.9rem; line-height: 1.35; width: max-content; max-width: none;">
+      <a href="mailto:yuanlongwei_hit@163.com" style="display: flex; align-items: center; gap: 7px; white-space: nowrap; flex-shrink: 0;">
         <i class="fa-solid fa-envelope" aria-hidden="true"></i>
         <span>yuanlongwei_hit@163.com</span>
       </a>
-      <a href="tel:+8615820000219" style="display: flex; align-items: center; gap: 7px; white-space: nowrap;">
+      <a href="tel:+8615820000219" style="display: flex; align-items: center; gap: 7px; white-space: nowrap; flex-shrink: 0;">
         <i class="fa-solid fa-phone" aria-hidden="true"></i>
         <span>+86-158-2000-0219</span>
       </a>
@@ -78,9 +78,9 @@ latest_posts:
 
 <style>
 .profile.float-right {
-  --profile-photo-width: 50%;
-  margin-left: 2rem;
-  width: 25%;
+  --profile-photo-width: 120px;
+  margin-left: 1rem;
+  width: 140px;
 }
 .profile.float-right figure {
   text-align: center;
@@ -89,6 +89,7 @@ latest_posts:
   width: var(--profile-photo-width);
 }
 .profile.float-right .more-info {
+  width: max-content;
   margin-left: calc((100% - var(--profile-photo-width)) / 2);
 }
 .wrap {
