@@ -290,7 +290,7 @@ track.addEventListener('click', () => {
 .box-wrap {
   display:flex;
   align-items:flex-start;
-  gap:14px;
+  gap:24px;
   width:100%;
   max-width:672px;
   margin:20px auto;
@@ -303,8 +303,8 @@ track.addEventListener('click', () => {
 /* 不旋转a标签，用伪元素画菱形，点击热区完全正常 */
 .diam-wrap {
   position:relative;
-  width:62px;
-  height:62px;
+  width:calc(62px * 0.4);
+  height:calc(62px * 0.4);
   display:block;
 }
 .diam-wrap::before {
